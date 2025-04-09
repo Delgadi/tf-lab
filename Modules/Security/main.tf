@@ -4,6 +4,8 @@ resource "aws_security_group" "firewall" {
   description = "Simulating Palo Alto rules"
   vpc_id      = var.vpc_id
 
+
+# If you have a jump hosts this would be to open to the world. 
   ingress {
     from_port   = 22
     to_port     = 22
