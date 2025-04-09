@@ -56,7 +56,7 @@ terraform-lab/
 
 - Your updated Terraform code
 - Documentation of:
-  - Architecture decisions
+  - Diagram and Architecture decisions
   - Security rules and their rationale
   - How you handled the simulated incident
   - Any issues encountered and how you debugged them
